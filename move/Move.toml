@@ -1,0 +1,9 @@
+[package]
+name = "green_marketplace"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+green_marketplace = "0x0"
